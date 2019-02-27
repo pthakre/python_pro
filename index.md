@@ -1,8 +1,13 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/pthakre/python_pro/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+import os
+from pySmartDL import SmartDL
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+url = "https://pgli8d.oloadcdn.net/dl/l/lOsThkiJ2ggO5QxP/Jqx3SuC1JEE/The.Guilty.2018.1080p.BluRay.x264-%5BYTS.AM%5D.mp4"
+dest = "C:\\Downloads\\" # or '~/Downloads/' on linux
+
+obj = SmartDL(url, dest)
+obj.start().
 
 ### Markdown
 
